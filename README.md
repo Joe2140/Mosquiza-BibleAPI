@@ -5,7 +5,7 @@ This simple PHP web application fetches Bible verses using [bible-api.com](https
 ## How to Run
 1. Download or clone this repository.
 2. Place the folder in your local server (e.g., `htdocs` for XAMPP).
-3. Open in your browser: `http://localhost/BibleAPI/index.php`
+3. Open in your browser: `http://localhost/BibleVerse/index.php`
 4. Enter a book, chapter, and verse, then click submit.
 
 ## Example API URLs
@@ -18,4 +18,4 @@ This simple PHP web application fetches Bible verses using [bible-api.com](https
 - How to display API data in a simple web UI.
 
 ## Acknowledgment
-Verses retrieved courtesy of [bible-api.com](https://bible-api.com)
+Verses retrieved API by [bible-api.com](https://bible-api.com)
