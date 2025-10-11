@@ -1,0 +1,156 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('Crossbackground.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.outer-box {
+  border: 2px solid #5526a5;
+  border-radius: 10px;
+  padding: 18px;
+  background-color: rgba(255, 255, 255, 0.715);
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  width: 65%;
+  max-width: 600px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.outer-box:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 18px rgba(0,0,0,0.2);
+}
+
+.container {
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: bold;
+  color: #333;
+  font-size: 13px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #5526a5;
+  outline: none;
+  box-shadow: 0 0 3px rgba(85, 38, 165, 0.3);
+}
+
+select,
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+small {
+  display: block;
+  color: #777;
+  margin-top: 2px;
+  font-size: 10px;
+}
+
+button {
+  background-color: #380f83;
+  color: white;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  margin-top: 8px;
+  transition: background-color 0.3s ease, transform 0.2s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #5b32c5;
+  transform: scale(1.03);
+}
+
+.result-box {
+  margin-top: 15px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+  min-height: 80px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.copy-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.copy-btn:hover {
+  background-color: #45a049;
+}
+
+.credit {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.placeholder {
+  color: #777;
+  font-style: italic;
+  font-size: 13px;
+}
+
+/* ✅ Responsive */
+@media (max-width: 480px) {
+  .outer-box {
+    width: 90%;
+    padding: 12px;
+  }
+}
